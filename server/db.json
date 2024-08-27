@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "a5d2",
+      "firstName": "Fabio",
+      "lastName": "Castro",
+      "email": "castro@gmail.com",
+      "password": "1234",
+      "role": "Administrador"
+    },
+    {
+      "id": "556a",
+      "firstName": "Jose",
+      "lastName": "Gonzalez",
+      "email": "jgonzalezf@gmail.com",
+      "password": "1122",
+      "role": "Estudiante"
+    }
+  ],
+  "compus": [
+    {
+      "id": "13e8",
+      "nombre": "Freddy",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-30",
+      "codigo": "fd32jfj"
+    },
+    {
+      "id": "428a",
+      "nombre": "orlando",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-31",
+      "codigo": "asfds435"
+    }
+  ],
+  "solicitud":[
+    
+  ]
+}

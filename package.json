@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "server": "json-server --watch server/db.json --port 3001",
+    "start": "npx parcel src/index.html && src/pages/login.html && src/pages/formulario.html && src/pages/administrador.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

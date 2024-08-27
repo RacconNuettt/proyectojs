@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de solicitud de computaadoras</title>
+    <link rel="stylesheet" href="/src\css\form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario de Solicitud de Computadora</h1>
+        <div class="borde">
+            <form id="formPc">
+                <div class="form-group">
+                    <label for="nombre">Nombre o ID del usuario:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="sede">Sede:</label>
+                    <select id="sede" name="sede">
+                        <option>Seleccionar Sede</option>
+                        <option>Sede El Huerto</option>
+                        <option>Sede Hub Santa Ana</option>
+                        <option>Sede Edunamica Nosara</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="fechaSalida">Fecha de salida:</label>
+                    <input type="date" id="fechaSalida" name="fechaSalida">
+                </div>
+
+                <div class="form-group">
+                    <label for="fechaRegreso">Fecha de regreso:</label>
+                    <input type="date" id="fechaRegreso" name="fechaRegreso">
+                </div>
+
+                <div class="form-group">
+                    <label for="codigo">Código de la computadora:</label>
+                    <input type="text" id="codigo" name="codigo">
+                </div>
+
+                <div class="form-group">
+                    <label for="aceptacion">Términos y condiciones:</label>
+                    <textarea id="aceptacion" name="aceptacion" readonly>
+♦ Si viajas en transporte público, debes resguardar tu equipo en tu bolso personal, no exponerlo.
+♦ Si llevas el equipo, procura ir acompañado.
+♦ Si está lloviendo, procura llevar el equipo en un vehículo apropiado para evitar algún daño.
+♦ Evitar jugar, descargar o utilizar el equipo para otros motivos que no sean relacionados con el estudio.
+♦ El equipo será revisado antes y después de ser entregado. Cualquier alteración o instalación indebida podría resultar en la pérdida de privilegios.
+♦ Si retiras una computadora sin haber completado el formulario y la boleta física, podrías ser amonestado.
+♦ Este formulario debe llenarse junto con la boleta física, que debe estar firmada por la persona encargada.
+                </textarea>
+                    <div class="check">
+                        <input type="checkbox" id="confirmacion" name="confirmacion">
+                        <label for="confirmacion">He leído y acepto las condiciones anteriores.</label>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button id="enviar" type="submit" class="submit-btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script type="module" src="../../services/prueba.js"></script>
+
+</html>
